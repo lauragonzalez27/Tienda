@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Contenedor Principal */
+.dasboard-container, .login-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Estilos para el formulario de login */
+.login-container{
+    width: 100;
+    max-width: 400;
+    padding: 30px;
+}
+
+/* Encabezado de login */
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Estilos para los campos del formulario */
+.form-grop {
+    margin-bottom: 20px
+}
+label {
+    font-size: 14px;
+    color: #555;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+/* Estilos para el boton de login */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+buton:hover {
+    background-color: #0056b3;;
+}
+
+/* Estilos para el mensaje de error */
+.error -message {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+/*Estilos para el dashboard */
+header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header h2 {
+    color: #333;
+    font-size: 24px;
+    margin: 0;
+}
+
+header .logout-button {
+    background-color:  #dc3545;
+    color: white;
+    padding:  10px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+header .logout-button:hover {
+    background-color: #c82333; /*Rojo oscuro al pasar el cursos */
+}
+
+/* Contenido principal (dos columnas) */
+.main-contect {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Columna del menu */
+.menu-column {
+    width: 25%;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+} 
+
+.menu-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-column li {
+    margin: 15px 0;
+}
+
+.menu-column a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #007BFF;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #007BFF;
+    display: block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu-column a:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+/* Columna de contenido principal */
+.content-column {
+    width: 70px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content-column p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo para los enlaces del menu */
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Estilos para el logo y la cabecera de login */
+header .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}

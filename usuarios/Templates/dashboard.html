@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dasboard de Administrador </title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'usuarios/estilos.css '%}">
+</head>
+<body>
+    <div class="dasboard-container">
+        <header>
+            <div class="header-content">
+                <h2>Dasboard de Administrador</h2>
+                <a href="{% url 'logout' %}" class="logout-button">Cerrar sesion</a>
+            </div>
+        </header>
+
+        <div class="main-contect">
+            <div class="menu-column">
+                <ul>
+                    <li><a href="#">Gestion de usuario</a></li>
+                    <li><a href="#">Gestion de productos</a></li>
+                    <li><a href="#">Gestion de pedidos</a></li>
+                </ul>
+            </div>
+
+            <div clas="content-column">
+                <p>Bienvenidos al panel de administracion. Aqui podras gestionar los usuario, productos y pedidos.</p>
+            </div>
+        </div>
+    </div>
+</body>
+ 
