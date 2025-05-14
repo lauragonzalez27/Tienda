@@ -19,8 +19,8 @@ def Login_view(request):
         form = LoginForm()
     return render(request, 'login.html', {'form': form})
 
-def Logout_view(request):
-    Logout_view(request) #Cierra la sesion del usuario
+def logout_view(request):
+    logout(request) #Cierra la sesion del usuario
     return redirect('login')
 
 def dashboard_view(request):
